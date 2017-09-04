@@ -1,1 +1,21 @@
-updating the file
+cd E:\
+mkdir tmpGit
+cd tmpGit
+mkdir test1
+cd test1
+git init --initialize git in the current repo create .git directory
+git remote add origin https://github.com/benaliahmed/Git.git
+git status
+echo "# Git" >>README.md --creates a new README file with a content
+git add README.md
+git commit -m "first commit"  --commit with a message
+git push -u origin master
+
+Now after modifying the content of the current file
+
+git diff --check the difference between versions of the file
+git diff --cached --see the difference between the last commit and the the staging area (if added)
+git add cmdcourse.txt   --we can add and then commit and push as it's a new file and we can skip adding with the foloowing
+git commit -am "change file content"  -- the -a is to commit only changed files not the deleted or new files
+git push
+git status

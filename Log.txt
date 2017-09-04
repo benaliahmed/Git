@@ -1,0 +1,3 @@
+git log             --see the commit history
+git log 	    --stat --summary   --with a brief summary of what was done at each commit
+git log -p  	    --see full diff at each commit
